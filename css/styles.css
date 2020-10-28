@@ -5,6 +5,93 @@
   box-sizing: border-box;
   font-family: Poppins, arial, sans-serif;
 }
+
+html {
+  font-size: 10px;
+}
+
+.home__nav {
+  display: flex;
+  background-color: #091722;
+  width: 100%;
+  height: 20%;
+  justify-content: space-between;
+  font-size: 3rem;
+  position: sticky;
+  top: 0;
+}
+
+.nav__logo {
+  font-size: 5rem;
+  color: #fff;
+  font-family: "Grenze Gotisch";
+  padding-left: 3rem;
+}
+
+.home__nav ul {
+  display: flex;
+  margin-top: 2rem;
+  margin-right: 4rem;
+}
+
+.home__nav li {
+  list-style: none;
+  padding-left: 5rem;
+}
+.home__nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.home__header {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.7)),
+    url("../images/main.jpg");
+  background-size: cover;
+}
+
+.home__header .header__container {
+  /* width: 60%; */
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 7rem;
+}
+
+.container__welcome {
+  font-size: 3.5rem;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  text-shadow: 1px 3px #b50303;
+  color: #d9dad6;
+}
+.container__par {
+  text-shadow: 1px 3px #b50303;
+  color: #d9dad6;
+  font-size: 200%;
+  font-size: 5rem;
+  font-family: "Grenze Gotisch";
+  width: 90%;
+}
+
+.container__but {
+  width: 15%;
+  height: 10%;
+  border-radius: 50px;
+  border: none;
+  margin-left: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #b50303;
+  color: #fff;
+  margin-top: 5%;
+}
+
 .main {
   width: 100%;
   display: flex;
