@@ -181,3 +181,50 @@
   color: #d8d9d5;
   letter-spacing: 8px;
 }
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 85px;
+  background-color: #fff;
+}
+.contact__title {
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #b50303;
+  font-size: 3vw;
+}
+.contact__form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.input__field {
+  outline: none;
+  border: 3px solid #9c9e98;
+  padding: 13px 20px;
+  margin-bottom: 2%;
+  border-radius: 15px;
+  text-align: left;
+}
+.input__field:focus {
+  box-shadow: 1px 3px 28px -1px #9c9e9885;
+}
+.textarea {
+  resize: none;
+  color: #9c9e98;
+}
+.input__submit {
+  outline: none;
+  background-color: #091722;
+  color: #fff;
+  padding: 15px 20px;
+  margin-bottom: 3%;
+  border-radius: 15px;
+  border: none;
+}

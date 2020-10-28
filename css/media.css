@@ -3,6 +3,11 @@
 @media (min-width: 1200px) and(max-width:1800px) {
 }
 @media screen and (max-width: 1200px) {
+  .contact__form {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 @media screen and (max-width: 900px) {
   .about__title {
@@ -39,6 +44,11 @@
   }
   .number__div p {
     font-size: 2vw;
+  }
+  .contact__form {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -121,5 +131,21 @@
   }
   .number__div p {
     font-size: 5vw;
+  }
+  .contact {
+    padding: 30px 20px;
+  }
+  .contact__title {
+    font-size: 5vw;
+  }
+  .contact__form {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .input__field {
+    border: 2px solid #2c2d48;
+    padding: 10px 20px;
+    margin-bottom: 3%;
   }
 }
