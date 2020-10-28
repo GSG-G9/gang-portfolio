@@ -29,6 +29,17 @@
   .codewars_icon {
     font-size: 3vw;
   }
+  .number__div {
+    width: 25%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .number__div h3 {
+    font-size: 5vw;
+  }
+  .number__div p {
+    font-size: 2vw;
+  }
 }
 @media screen and (max-width: 600px) {
   .about {
@@ -97,5 +108,18 @@
   .github_icon,
   .codewars_icon {
     font-size: 6vw;
+  }
+  .number__div {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 30px;
+  }
+  .number__div h3 {
+    font-size: 12vw;
+    padding-bottom: 10px;
+  }
+  .number__div p {
+    font-size: 5vw;
   }
 }
