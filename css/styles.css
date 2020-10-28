@@ -44,16 +44,12 @@ html {
 .header {
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.7)),
     url("../images/main.jpg");
   background-size: cover;
 }
 
 .header .container {
-  /* background-color: lemonchiffon; */
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/main.jpg");
-  background-size: cover; */
   width: 60%;
   height: 450px;
   display: flex;
@@ -61,11 +57,9 @@ html {
   align-items: flex-start;
   flex-wrap: wrap;
   flex-direction: column;
-  /* border: 10px solid #000;
-  border-radius: 5%; */
+
   padding: 2rem;
   margin: 7rem;
-  /* box-shadow: 10px 15px 8px 10px #888888; */
 }
 
 .welcome {
@@ -74,7 +68,8 @@ html {
   margin-bottom: 1%;
 }
 .par {
-  /* text-shadow: 5px 5px rgb(145, 255, 0); */
+  text-shadow: 1px 3px #df594d;
+  color: #fff;
   font-size: 200%;
   font-size: 5rem;
   font-family: "Grenze Gotisch";
