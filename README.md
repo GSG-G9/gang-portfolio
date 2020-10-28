@@ -1,2 +1,2 @@
 # gang-portfolio
-This is a our team portfoliofor 'the gang'. 
+This is a our team portfolio 'the gang'. 
