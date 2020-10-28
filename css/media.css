@@ -18,6 +18,17 @@
   .about--div p {
     font-size: 1.9vw;
   }
+  .teamdiv {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 12px;
+  }
+  .linkedIn_icon,
+  .github_icon,
+  .codewars_icon {
+    font-size: 3vw;
+  }
 }
 @media screen and (max-width: 600px) {
   .about {
@@ -47,5 +58,44 @@
   }
   .about--div p {
     font-size: 3vw;
+  }
+  .team {
+    padding: 30px 20px;
+  }
+  .teamdiv {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 12px;
+    padding: 15px 10px;
+  }
+  .teamdiv img {
+    width: 90%;
+  }
+  .team__title {
+    font-size: 5vw;
+  }
+  .team__description {
+    font-size: 3vw;
+    text-align: center;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+  }
+  .team__title {
+    margin-bottom: 15px;
+  }
+  .team_member_name {
+    font-size: 5vw;
+    padding-top: 0px;
+  }
+  .job_title {
+    font-size: 3vw;
+    padding-bottom: 8px;
+  }
+  .linkedIn_icon,
+  .github_icon,
+  .codewars_icon {
+    font-size: 6vw;
   }
 }
